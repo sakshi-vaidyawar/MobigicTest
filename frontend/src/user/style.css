@@ -1,0 +1,33 @@
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .input{
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: large;
+    
+    border: 2px solid white;
+
+  }
+  .button{
+    background-color: gray;
+    color: black;
+    font-size: large;
+    border: 4px solid black;
+  }
+  .label{
+    margin-right: 8px;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    container {
+      max-width: 300px;
+    }
+  }
+  
+  
